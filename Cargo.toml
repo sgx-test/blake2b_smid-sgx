@@ -27,16 +27,16 @@ sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.g
 
 [dependencies.arrayref]
 version = "0.3.5"
-git = "https://github.com/prz23/arrayref-sgx"
+git = "https://github.com/sgx-test/arrayref-sgx"
 
 [dependencies.arrayvec]
 version = "0.5.2"
-git = "https://github.com/prz23/arrayvec-sgx"
+git = "https://github.com/sgx-test/arrayvec-sgx"
 branch = "sgx"
 default-features = false
 
 [dependencies.constant_time_eq]
-git = "https://github.com/prz23/constant_time_eq-sgx"
+git = "https://github.com/sgx-test/constant_time_eq-sgx"
 version = "0.1.3"
 
 [features]
