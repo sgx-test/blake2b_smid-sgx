@@ -40,6 +40,8 @@ git = "https://github.com/sgx-test/constant_time_eq-sgx"
 version = "0.1.3"
 
 [features]
-default = []
+[features]
+default = ["mesalock_sgx"]
+mesalock_sgx = ["sgx_tstd"]
 std = []
 uninline_portable = []
